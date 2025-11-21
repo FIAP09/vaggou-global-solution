@@ -8,7 +8,7 @@ Nosso objetivo é **conectar talentos a oportunidades reais, com transparência,
 Além da listagem de vagas, oferecemos um recurso extra: a **JobLetters**, uma ferramenta onde o usuário informa seu número de WhatsApp e passa a **receber vagas diariamente no celular**, facilitando sua jornada profissional.
 
 > [!NOTE]
-> Este projeto foi desenvolvido como parte da [Global Solution](https://www.fiap.com.br/graduacao/global-solution) 2025/2 do 1º ano de Engenharia de Software da FIAP, dentro do tema **O Futuro do Trabalho**.
+> Este projeto foi desenvolvido como parte da [Global Solution](https://www.fiap.com.br/graduacao/global-solution) 2025/2 do 1º ano de Engenharia de Software da [FIAP](https://www.fiap.com.br/), dentro do tema **O Futuro do Trabalho**.
 
 ## Sumário
 
@@ -90,6 +90,8 @@ Acesse o protótipo hospedado: **https://vaggou.vercel.app**
       style.css
    /images
       (... imagens usadas no projeto ...)
+   /readme
+      (... imagens usadas no readme ...)
    vagas.json
 ```
 
