@@ -2,16 +2,19 @@
    1. GLOBAIS (VARIÁVEIS, RESET, TIPOGRAFIA, CURSOR)
    ========================================= */
 :root {
+  /* Cores do tema claro (padrão) */
   --bg-color: #ffffff;
   --text-color: #000000;
   --button-bg: #000000;
   --button-text: #ffffff;
   --border-color: #e5e5e5;
   --secondary-bg: #f5f5f5;
+  /* Gradientes para efeitos visuais */
   --gradient-rainbow: linear-gradient(90deg, #7928CA, #FF0080, #FF4D4D, #F9CB28, #00C16A, #0070F3);
   --gradient-green: linear-gradient(90deg, #0cff0c, #0cff0c, #0cff0c, #0cff0c, #0cff0c, #0cff0c);
 }
 
+/* Cores do tema escuro */
 body.modo-escuro {
   --bg-color: #0a0a0a;
   --text-color: #ffffff;
@@ -21,6 +24,7 @@ body.modo-escuro {
   --secondary-bg: #1a1a1a;
 }
 
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -66,11 +70,13 @@ p.subtitulo {
   margin-bottom: 2.5rem;
 }
 
+/* Inputs específicos */
 input#email, 
 input#whatsapp {
   cursor: text;
 }
 
+/* Utilitários */
 .destaque {
   font-weight: 600;
   color: var(--text-color);
@@ -107,6 +113,7 @@ nav {
   z-index: 1000;
 }
 
+/* Classe para link ativo na navegação */
 .ativo {
   font-weight: 600;
   opacity: 1 !important;
@@ -258,6 +265,7 @@ footer {
   transform: scale(0.98);
 }
 
+/* Botão com gradiente arco-íris */
 .botao-primario {
   background-color: var(--button-bg);
   color: var(--button-text);
@@ -280,6 +288,7 @@ footer {
   border-radius: 10px;
 }
 
+/* Botão com gradiente verde */
 .botao-secundario {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -333,6 +342,7 @@ footer {
   margin: 0 auto;
 }
 
+/* Selo de novidade */
 .selo {
   padding: 0.4rem 1rem;
   border-radius: 50px;
@@ -360,7 +370,7 @@ footer {
   font-size: 1.2rem;
 }
 
-/* PARCEIROS */
+/* PARCEIROS (Carrossel Infinito) */
 .secao-parceiros {
   padding: 2rem 1rem;
   width: 100%;
@@ -379,6 +389,7 @@ footer {
   margin: 0 auto;
 }
 
+/* Efeito de fade nas laterais do carrossel */
 .carousel-parceiros::before,
 .carousel-parceiros::after {
   content: "";
@@ -402,7 +413,6 @@ footer {
 
 .track-parceiros {
   display: flex;
-  width: calc(200px * 15); 
   animation: scroll 40s linear infinite;
 }
 
@@ -415,6 +425,7 @@ footer {
   flex-shrink: 0;
 }
 
+/* Logos em escala de cinza por padrão */
 .slide-parceiro img {
   max-width: 100%;
   height: auto;
@@ -429,6 +440,7 @@ footer {
   opacity: 1;
 }
 
+/* Ajuste de logos para modo escuro */
 body.modo-escuro .slide-parceiro img {
   filter: brightness(0) invert(1);
   opacity: 0.6;
@@ -458,6 +470,7 @@ body.modo-escuro .slide-parceiro img:hover {
   margin: 0 auto;
 }
 
+/* Grid de cards de funcionamento */
 .grid-funcionamento {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -504,6 +517,7 @@ body.modo-escuro .slide-parceiro img:hover {
   opacity: 0.8;
 }
 
+/* Grid de depoimentos */
 .grid-depoimentos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -559,7 +573,7 @@ body.modo-escuro .slide-parceiro img:hover {
   opacity: 0.9;
 }
 
-/* FAQ */
+/* FAQ (Accordion) */
 .secao-faq {
   padding: 4rem 1rem;
   max-width: 800px;
@@ -634,12 +648,14 @@ body.modo-escuro .slide-parceiro img:hover {
 /* =========================================
    4. PÁGINA: VAGAS.HTML
    ========================================= */
+/* Cabeçalho da página de vagas */
 .cabecalho {
   align-items: center;
   cursor: default;
   text-align: center;
 }
 
+/* Container de filtros */
 .filtros-container {
   display: flex;
   justify-content: center;
@@ -676,6 +692,7 @@ body.modo-escuro .slide-parceiro img:hover {
   border-color: transparent;
 }
 
+/* Grid de vagas */
 .grid-vagas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -683,6 +700,7 @@ body.modo-escuro .slide-parceiro img:hover {
   width: 100%;
 }
 
+/* Card de vaga individual */
 .card-vaga {
   background-color: var(--bg-color);
   border: 1px solid var(--border-color);
@@ -733,7 +751,7 @@ body.modo-escuro .slide-parceiro img:hover {
   gap: 0.3rem;
 }
 
-/* MODAL */
+/* MODAL DE DETALHES DA VAGA */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -879,6 +897,7 @@ body.modo-escuro .slide-parceiro img:hover {
 /* =========================================
    5. PÁGINA: JOBSLETTER.HTML
    ========================================= */
+/* Estilos para a seção de páginas internas */
 .secao-paginas {
   padding: 4em 1rem;
   flex: 1;
@@ -891,6 +910,7 @@ body.modo-escuro .slide-parceiro img:hover {
   gap: 2rem;
 }
 
+/* Container principal do formulário */
 .container-jobsletter {
   width: 100%;
   max-width: 700px;
@@ -901,17 +921,7 @@ body.modo-escuro .slide-parceiro img:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.cabecalho-jobsletter {
-  text-align: center;
-  margin-bottom: 0;
-  max-width: 800px;
-}
-
-.cabecalho-jobsletter h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
+/* Formulário */
 .form-jobsletter {
   display: flex;
   flex-direction: column;
@@ -927,6 +937,7 @@ body.modo-escuro .slide-parceiro img:hover {
   flex: 1;
 }
 
+/* Estilos dos inputs */
 .grupo-input {
   display: flex;
   flex-direction: column;
@@ -963,16 +974,6 @@ body.modo-escuro .slide-parceiro img:hover {
   border-color: var(--text-color);
 }
 
-.remover-inscricao {
-  background: none;  border: none;
-  color: var(--text-color);
-  font-size: 1.4rem;
-  font-weight: 600;
-  opacity: 0.6;
-  cursor: default;
-  margin-top: 2.8rem;
-}
-
 /* =========================================
    6. PÁGINA: SOBRE.HTML
    ========================================= */
@@ -980,6 +981,7 @@ body.modo-escuro .slide-parceiro img:hover {
 /* =========================================
    7. PÁGINA: TIME.HTML
    ========================================= */
+/* Grid de membros da equipe */
 .grid-time {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1027,6 +1029,8 @@ body.modo-escuro .slide-parceiro img:hover {
 /* =========================================
    8. PÁGINA: CONTATO.HTML
    ========================================= */
+   
+/* Estilização específica para textarea */
 textarea {
   padding: 0.8rem;
   border-radius: 8px;
@@ -1051,9 +1055,7 @@ textarea:focus {
   color: var(--text-color);
   opacity: 0.6;
   margin-top: 0.2rem;
-}
-
-/* =========================================
+}/* =========================================
    9. RESPONSIVIDADE (FINAL DO ARQUIVO)
    ========================================= */
 
@@ -1066,14 +1068,13 @@ textarea:focus {
     gap: 1rem;
   }
   
-  /* Vagas Grid Tablet */
   .grid-vagas {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  /* Nav Mobile */
+
   nav {
     padding: 1rem;
   }
