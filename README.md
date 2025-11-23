@@ -105,7 +105,7 @@ Acesse o protótipo hospedado: **https://vaggou.vercel.app**
 | Ramon da Silva Martins | 566929 | Desenvolvimento, UI/UX, JS |
 | Thiago Saccomani | 566731 | JS, Figma |
 
-### 🎥 Vídeo Pitch
+## 🎥 Vídeo Pitch
 
 Vídeo Pitch demonstrando e explicando a solução: 
 
