@@ -5,7 +5,7 @@
 </div>
 <br>
 <p align="center">
-  <a href="https://https://vaggou.vercel.app" target="_blank" rel="noopener noreferrer">
+  <a href="https://vaggou.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/website-%23555555?style=flat-square&logo=google-chrome&logoColor=FFFFFF" alt="Site" />
   </a>
 </p>
