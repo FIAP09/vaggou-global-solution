@@ -131,4 +131,4 @@ Vídeo Pitch demonstrando e explicando a solução:
 O **Vaggou** é nosso primeiro passo para tornar a busca por vagas tech mais simples, acessível e inclusiva.  
 Seguimos evoluindo o projeto e trazendo melhorias contínuas.
 
-_Obrigado por conhecer nossa solução!_
+_❤️ Obrigado por conhecer nossa solução!_
