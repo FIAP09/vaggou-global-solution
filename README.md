@@ -124,7 +124,7 @@ Acesse o protótipo hospedado: **https://vaggou.vercel.app**
 
 Vídeo Pitch demonstrando e explicando a solução: 
 
-[![YouTube Card](https://ytcards.audibert.dev/api/HT3c17q_7eA?width=250&theme=dark&max_title_lines=1&show_duration=false)](https://youtu.be/HT3c17q_7eA)
+[![YouTube Card]([https://ytcards.audibert.dev/api/HT3c17q_7eA?width=250&theme=dark&max_title_lines=1&show_duration=false](https://youtube-cards.audibert.dev/api/HT3c17q_7eA?width=250&theme=dark&max_title_lines=1&show_duration=false))](https://youtu.be/HT3c17q_7eA)
 
 ## 👋 Finalização
 
